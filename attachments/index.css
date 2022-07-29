@@ -1,0 +1,48 @@
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 40px 80px;
+    border: 5px solid #ffffff;
+    border-radius: 100px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-box-shadow: #ffffff 0px 0px 40px 0px;
+    -moz-box-shadow: #ffffff 0px 0px 40px 0px;
+    box-shadow: #ffffff 0px 0px 40px 0px;
+    text-shadow: #ffffff 1px 1px 1px;
+    font: normal normal bold 34px tahoma;
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.button:hover {
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.button:active {
+    background: #b3b3b3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b3b3b3), to(#ffffff));
+    background: -moz-linear-gradient(top, #b3b3b3, #ffffff);
+    background: linear-gradient(to bottom, #b3b3b3, #ffffff);
+    text-transform: uppercase
+}
+.button:focus {
+    text-transform: uppercase
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABi0lEQVRIicXVv0ocURTH8Y8iEpYQJIWIWEhIYSHYWARrMXmAYBVSbmUhFprCZ0gq2c4HSCBNsBC0EKsgKUKQNNGICJqAhWlEBbW4s+x1uLM74ybkB4cZ7p/vOfece2b4x+r5i6wRTOIJ+vARP7qFPsY8dnCFm8jeyDzdR0NYQh21gjXX9wH3YQ6n7kabspdV4YNYLwG+EdI1WgX+FHsR4AIrQoo+JRx8qwIfxs8cYDGa78WaRIHbaQBTmMZ2IsKx3Pp6NHcuXIKkHqEhpKBdjmdz+xrRXKMI3l8Qbcp+ZU7GhHQ1AzoTGi6p5ZLwdrZQBK9lUXUD39SmcV90Cd9TUNimx1Gc4Ciy10LRO+kAz7P9pTQifMR2SkS+LfRJac1r3YRxHHdwMF0FPiRct91obByfM6cpB8+qOHil1YmT2diwkK6VBPxciRr1Ru8T2fOBkNvv2Wlq0s2zij9VTvAhF+GFUBP4kpvbwsMy0Lgx9vEeh/iKDa2r1zzBb7zDW1xWib6T6phR/Hv8f7oFBpTIfBV3oEYAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
